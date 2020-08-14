@@ -1,0 +1,1089 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap');
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 40px;
+  color: #1DAEFF;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.wrapper-hero {
+  max-width: 1000px;
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  flex-wrap: inherit;
+}
+
+h2 {
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 25px;
+  color: #1DAEFF;
+}
+
+h3
+h4
+h6 {
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 20px;
+  color: #757575;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 10vh;
+  right: 10vw;
+  z-index: 2;
+}
+
+.whatsapp img {
+  width: 60px;
+}
+
+/* aqui se haran los stilos en el hero del home */
+
+.hero {
+  text-align: center;
+}
+
+.registreBlock {
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+}
+
+.home-page {
+  display: block;
+  text-align: center;
+}
+
+.container-home {
+  display: inline-block;
+  /* max-width: 1400px; */
+}
+
+.container-content-registre {
+  display: block;
+  margin-top: 50px;
+}
+
+.background-image-manchas {
+  background-image: url(../images/Manchas-para-fondo-servicios-Beta.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: fadeIn;
+  animation-duration: 6s;
+  background-position: 50% 50%;
+}
+
+.services-title {
+  font-size: 2rem;
+  color: #1DAEFF;
+  margin-block-end: 0;
+}
+
+.description-precio {
+  font-weight: 700;
+  color: #c4c4c4;
+  margin-block-start: 0;
+  margin-block-end: 0em;
+}
+
+.precio-antes{
+  margin-block-start: 0;
+  margin-block-end: 2em;
+  text-decoration: line-through;
+}
+
+.wrapper-description {
+  padding: 0 50px;
+}
+
+.flex-buttons-services {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items-services {
+  color: #757575;
+  font-size: 1rem;
+}
+
+.boxReg {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.opacity {
+  background: rgba(255, 255, 255, 0.95);
+  height: 100%;
+}
+
+.buttonModal {
+  border-style: none;
+  background: none;
+  outline   : none;
+}
+
+.buttonModal:hover,
+.buttonModal:focus {
+  border-style: none;
+  background: none;
+  outline   : none;
+}
+
+
+/* 
+estilos de la navBar del home */
+
+
+/* azuloscuro: #378DCA
+azulclaro: #1DAEFF
+grisOscuro: #454545
+grisMedio: #757575
+grisClaro: #C4C4C4 */
+
+.logoN {
+  padding: 20px;
+  background: none;
+  border-radius: 0 0 40px 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logoN a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.container-block-nav-services {
+  display: block;
+  text-align: center;
+  width: 100vw;
+  background: #1DAEFF;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+.nav-flex {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.title-encuesta {
+  font-size: 4rem;
+  color: #1DAEFF;
+}
+
+.texto-inicio {
+  font-size: .9rem;
+  color: #757575;
+  margin: 0;
+}
+
+.container-inicio {
+  display: inline-block;
+  width: 250px;
+}
+
+.button-omitir {
+  color: #C4C4C4;
+  border-style: none;
+  background: none;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.button-omitir:hover,
+.button-omitir:focus {
+  outline   : none;
+  color: #1DAEFF;
+}
+
+
+.button-comenzar {
+  color: #1DAEFF;
+  border-style: none;
+  background: none;
+  margin: 0;
+
+}
+
+
+.blockPerfil {
+  display: block;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 50px;
+} 
+
+.menuN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.buttonInicioN {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  background: none;
+  border-radius: 30px;
+  color: white;
+  border-style: none;
+  padding: 5px 20px;
+  margin: 0;
+  font-weight: 700;
+  outline   : none;
+}
+
+.icon-Logo_net540_beta {
+  color: #1DAEFF;
+}
+
+.icon-Logo_net540 {
+  font-size: 30px;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+/* Estilos de las opciones  */
+
+  .boxRegistre {
+  text-align: center;
+  padding: 10px 0 40px 0;
+  box-shadow: 0 3px 8px 0 #dad9d9;
+  border-radius: 30px;
+  display: block;
+  width: 380px;
+  background: white;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  }
+
+  .boxRegistre:hover,
+  .boxRegistre:focus {
+  border-style: none;
+  outline   : none;
+  box-shadow: 0 3px 8px 0 #378dcac7;
+  }
+
+  .buttonRegistre {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    background: #1DAEFF;
+    border-radius: 30px;
+    color: white;
+    border-style: none;
+    padding: 10px 20px;
+    margin: 0 0 0 0;
+    font-weight: 800;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+  }
+
+.buttonVer {
+  font-family: 'Lato', sans-serif;
+  font-size: .8rem;
+  background: none;
+  border-radius: 30px;
+  color: #c4c4c4;
+  border-style: none;
+  padding: 10px 20px;
+  margin: 0 0 0 0;
+  font-weight: 800;
+}
+
+.buttonRegistre:hover,
+.buttonRegistre:focus {
+  outline   : none;
+  background: white;
+  color  : #757575;
+}
+
+.hero {
+    text-align: center;
+}
+
+.registreBlock {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; 
+}
+
+
+
+
+  /*@keyframes animationIn {*/
+  @keyframes modalIn {
+    0% {
+      transform: translateY(-3000px);
+    }
+    60% {
+      transform: translateY(25px);
+    }
+    75% {
+      transform: translateY(-10px);
+    }
+    90% {
+      transform: translateY(5px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  /*@keyframes animationOut {*/
+  @keyframes modalOut {
+    0% {
+      transform: translateY(5px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+    75% {
+      transform: translateY(25px);
+    }
+    100% {
+      transform: translateY(-3000px);
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .fadeIn {
+    animation: 1000ms fadeIn;
+  }
+
+  .icon-Logo_equis {
+  padding: 10px;
+  background: #1DAEFF;
+  border-radius: 20px;
+  color: white;
+  font-size: 10px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  }
+
+  .icon-Logo_equis:hover,
+  .icon-Logo_equis:focus {
+    background: white;
+    color: #757575;
+  }
+
+  .check {
+    color: #c4c4c4;
+    font-size: 13px;
+  }
+
+  .check a {
+    color: #c4c4c4;
+  }
+
+  strong {
+    color: #c4c4c4;
+
+  }
+
+  .detalle {
+    color: #1DAEFF;
+  }
+
+  .block-modal {
+    display: block;
+    padding: 2em 2em 5em 2em;
+  }
+
+
+  .flex-cerrar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+
+  .hero-title {
+    font-size: 25px;
+    color: #757575;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+  }
+
+  .hero-title-Empresa {
+    font-size: 25px;
+    color: #757575;
+    margin-block-start: 0em;
+    margin-block-end: 2em;
+  }
+
+  .titleRegistro {
+      display: block;
+      text-align: left;
+      padding: 0 30px;
+      width: 450px;
+  }
+
+
+  .titleRegistro h3 {
+    margin-block-start: 0;
+    margin-block-end: 1.5em;
+    color: #1DAEFF;
+  }
+
+
+ .buttonRegistrar {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  background: #378DCA;
+  border-radius: 30px;
+  color: white;
+  border-style: none;
+  padding: 10px 40px;
+  margin: 10px 25px;
+  font-weight: 800;
+  
+ }
+
+.buttonRegistrar:after {
+  content: " >>>";
+}
+
+.buttonRegistrar:hover,
+.buttonRegistrar:focus {
+  outline   : none;
+  background: #00BDEF;
+  color   : #FFF;
+}
+
+.buttonIniciar {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    background: #378DCA;
+    border-radius: 30px;
+    color: white;
+    border-style: none;
+    padding: 10px 35px;
+    font-weight: 800;
+    margin-right: 10px;
+   }
+  
+   .buttonIniciar:after {
+    content: " >>>";
+  }
+  
+  .buttonIniciar:hover,
+  .buttonIniciar:focus {
+    outline   : none;
+    background: #00BDEF;
+    color   : #FFF;
+  }
+
+  .buttonOlvido {
+    font-family: 'Lato', sans-serif;
+    border-style: none;
+    background: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #757575;
+}
+
+.buttonOlvido:hover,
+.buttonOlvido:focus {
+  outline   : none;
+  color   : #00BDEF;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+ol,
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+
+.listTerms a {
+    text-decoration: none;
+    color: #1DAEFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin: 0 10px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+li p {
+    display: none;
+    color: #1DAEFF;
+}
+
+.listTerms {
+    /* margin-right: 60px; */
+    width: 60%;
+}
+
+.logofooter {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    color: #1DAEFF;
+    font-weight: 700;
+    /* margin-right: 40px; */
+}
+
+.footer-flex {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container-block-footer {
+    display: block;
+    text-align: center;
+    width: 100vw;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.logofooter img{
+    margin-right: 10px;
+}
+
+
+.socialMedia {
+    align-items: center;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+
+.socialMedia a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin: 0 10px;
+    font-size: 0.9rem;
+}
+
+.icon-Logo_net540 {
+    margin-right: 10px;
+}
+
+.icon-Logo_youtube {
+    font-size: 20px;
+}
+
+.icon-Logo_instagram {
+    font-size: 20px;
+}
+
+.icon-Logo_linkedin {
+    font-size: 20px;
+}
+
+.icon-Logo_facebook {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .whatsapp {
+    bottom: 40px;
+    right: 40px;
+  }
+
+  .boxReg {
+      width: 50%;
+    }
+  
+  .footer-flex {
+    width: 95%;
+  }
+
+.container-block-footer {
+    display: block;
+    text-align: center;
+    width: 100vw;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.logofooter {
+    width: 20%;
+}
+
+.listTerms a {
+    margin: 0 10px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+li {
+    display: flex;
+}
+  
+  }
+
+@media screen and (max-width: 768px) {
+
+  .registreBlock {
+    padding: 0;
+  }
+
+  .background-image-manchas {
+    background-image: none;
+  }
+
+  .whatsapp {
+    bottom: 30px;
+    right: 30px;
+  }
+
+
+  .boxRegistre {
+    width: 45vw;
+  }
+  
+
+  .block-modal {
+    padding: 2em 2em 7em 2em;
+  }
+  
+  body {
+  font-size: 0.8em;
+  width: 100vw;
+  }
+
+  .logofooter img{
+  width: 60px;
+  }
+
+  .logofooter {
+  width: 20%;
+  }
+
+  .listTerms {
+  /* margin-right: 60px; */
+  width: 55%;
+  }
+
+  .socialMedia {
+  width: 25%;
+  }
+
+  .listTerms a {
+  margin: 0 10px;
+  text-align: center;
+  font-size: 0.6rem;
+  }
+
+  ol,
+  ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  }
+
+  li p {
+  display: flex;
+  }
+
+  li {
+  display: flex;
+  }
+
+  .icon-Logo_youtube {
+  font-size: 20px;
+  }
+
+  .icon-Logo_instagram {
+  font-size: 20px;
+  }
+
+  .icon-Logo_linkedin {
+  font-size: 20px;
+  }
+
+  .icon-Logo_facebook {
+  font-size: 20px;
+  }
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+  .whatsapp {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .backgroundProfesional {
+    background-image: none;
+  }
+  
+  .backgroundEmpresa {
+    background-image: none;
+  }
+
+  .modal {
+    top: 20%;
+    width: 85vw;
+  }
+
+  .modalEmpresa {
+    top: 20%;
+    width: 85vw;
+  }
+
+  .block-modal {
+    padding: 2em;
+  }
+
+
+  .titleRegistro {
+    padding: 5px 0 0 0;
+    width: 70vw;
+  }
+
+    .boxRegistre {
+        margin: 10px 0;
+        width: 80vw;
+    }
+  
+    .boxRegistre img {
+        width: 50vw;
+    }
+  
+    .buttonRegistre {
+        font-size: .9rem;
+    }
+
+  
+    .boxReg {
+      width: 100%;
+    }
+  
+    h1 {
+      margin: 0;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+
+  h1 {  
+    font-size: 30px; 
+  }
+  
+  h2 {  
+    font-size: 20px;   
+  }
+  
+  h3
+  h4
+  h6 {
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 15px;
+  }
+
+  .logoN {
+    padding: 25px 30px 25px 25px;
+  }
+
+  .logoN img {
+    width: 70px;
+  }
+
+  .buttonConocenosN {
+    display: none;
+    font-size: .7rem;
+  }
+
+  .nav-flex {
+  margin-right: 20px;
+  }
+
+  .buttonInicioN {
+    font-size: .8rem;
+    padding: 5px 10px;
+  }
+
+  .buttonInicioCerrarN {
+    font-size: .8rem;
+  }
+
+
+  .footer-flex {
+  width: 100%;
+  display: block;
+  padding-bottom: 50px;
+  }
+
+
+  .logofooter img{
+  width: 150px;
+  }
+
+  .logofooter {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0px;
+  }
+
+  .listTerms a {
+  text-decoration: none;
+  color: #757575;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  margin: 15px 5px;
+  text-align: center;
+  font-size: .75rem;
+  display: block;
+  }
+
+  .listTerms {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  }
+
+  ol,
+  ul {
+  display: flex;
+  width: 100%;
+  }
+
+  .puntoNone {
+  display: none;
+  }
+
+  .politicaNone {
+  display: none;
+  }
+
+
+  .socialMedia {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .container-block-footer {
+  margin-top: 50px;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+
+.buttonRegistre {
+  font-size: .75rem;
+  padding: 10px 20px;
+}
+
+.boxRegistre {
+  width: 90vw;
+}
+
+.hero-title {
+  font-size: 22px;
+}
+
+.nav-flex {
+  margin-right: 10px;
+}
+
+.hero-title-Empresa {
+  font-size: 22px;
+}
+
+.container-content-registre {
+  margin-top: 30px;
+}
+
+.modal {
+  top: 20%;
+  width: 90vw;
+}
+.modalEmpresa {
+  top: 20%;
+  width: 90vw;
+}
+
+.block-modal {
+  padding: 2em;
+}
+
+
+.titleRegistro {
+  padding: 15px 0 0 0;
+  width: 75vw;
+}
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+  h1 {
+    font-size: 25px;  
+  }
+  
+  h2 { 
+    font-size: 18px;  
+  }
+
+  .nav-flex {
+    margin-right: 0px;
+    padding-bottom: 20px;
+  }
+
+  .menuN {
+    display: block;
+  }
+
+  .logoN {
+    padding: 25px 30px 15px 25px;
+  }
+  
+  h3
+  h4
+  h6 {
+    font-size: 15px;
+  }
+
+  .logoN img {
+    width: 70px;
+  }
+
+  .buttonConocenosN {
+    display: none;
+    font-size: .7rem;
+  }
+
+  .boxRegistre {
+    width: 95vw;
+  }
+
+  .buttonInicioN {
+    font-size: .8rem;
+    margin: 0;
+    padding: 5px 5px;
+  }
+
+  .buttonInicioCerrarN {
+    font-size: .8rem;
+    margin: 0;
+  }
+
+  .listTerms a {
+    text-decoration: none;
+    color: #757575;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin: 15px 5px;
+    text-align: center;
+    font-size: .6rem;
+    display: block;
+}
+
+}
+
+
